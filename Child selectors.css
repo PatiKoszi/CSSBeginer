@@ -1,0 +1,21 @@
+#First-part {
+    color:red;
+}
+
+#First-part p {
+    color: green;
+}
+
+#First-subsection {
+    color: blue;
+}
+/*Child selector only p for First-part*/
+#First-part > p{
+    color: purple;
+}
+
+/*Adjacent selectors*/
+
+#Second-part h2 + p {
+    color: orange;
+}
