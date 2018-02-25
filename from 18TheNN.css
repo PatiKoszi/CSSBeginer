@@ -1,0 +1,23 @@
+span[class~="deck"]{
+    color: purple;
+} /*wszędzie gdzie jest deck nie ma znaczenia co za tym*/
+
+div[id] {
+    background: grey;
+}
+
+a[title] {
+    background: red;
+}
+/*konczy atrybut pdf*/
+a[href$="pdf"]{
+    color: green;
+}
+/*zaczyna atrybut pdf*/
+a[href^="http"]{
+    color:white;
+}
+
+a[title="Search engine"] {
+    color:yellow;
+}
